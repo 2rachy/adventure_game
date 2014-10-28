@@ -6,3 +6,4 @@ platforms/
 plugins/
 
 .idea/
+node_modules/
