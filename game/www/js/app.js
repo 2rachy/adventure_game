@@ -30,43 +30,81 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       controller: 'AppCtrl'
     })
 
-    .state('app.search', {
-      url: "/search",
+    .state('app.help', {
+      url: "/help",
       views: {
         'menuContent' :{
-          templateUrl: "templates/search.html"
+          templateUrl: "templates/help.html"
         }
       }
     })
 
-    .state('app.browse', {
-      url: "/browse",
+    .state('app.game_onebutton', {
+      url: "/game_onebutton",
       views: {
         'menuContent' :{
-          templateUrl: "templates/browse.html"
+          templateUrl: "templates/game_onebutton.html"
         }
       }
     })
-    .state('app.playlists', {
-      url: "/playlists",
+      .state('app.game_twobutton', {
+          url: "/game_twobutton",
+          views: {
+              'menuContent' :{
+                  templateUrl: "templates/game_twobutton.html"
+              }
+          }
+      })
+      .state('app.game_threebutton', {
+          url: "/game_threebutton",
+          views: {
+              'menuContent' :{
+                  templateUrl: "templates/game_threebutton.html"
+              }
+          }
+      })
+      .state('app.game_fourbutton', {
+          url: "/game_fourbutton",
+          views: {
+              'menuContent' :{
+                  templateUrl: "templates/game_fourbutton.html"
+              }
+          }
+      })
+      .state('app.game_youlose', {
+          url: "/game_youlose",
+          views: {
+              'menuContent' :{
+                  templateUrl: "templates/game_youlose.html"
+              }
+          }
+      })
+      .state('app.game_youwin', {
+          url: "/game_youwin",
+          views: {
+              'menuContent' :{
+                  templateUrl: "templates/game_youwin.html"
+              }
+          }
+      })
+    .state('app.buttondoom', {
+      url: "/buttondoom",
       views: {
         'menuContent' :{
-          templateUrl: "templates/playlists.html",
-          controller: 'PlaylistsCtrl'
+          templateUrl: "templates/buttondoom.html"
         }
       }
     })
 
-    .state('app.single', {
-      url: "/playlists/:playlistId",
+    .state('app.exit', {
+      url: "/exit",
       views: {
         'menuContent' :{
-          templateUrl: "templates/playlist.html",
-          controller: 'PlaylistCtrl'
+          templateUrl: "templates/exit.html"
         }
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/game_onebutton');
 });
 
