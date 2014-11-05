@@ -11,7 +11,7 @@ Start Game (using a browser)
 1. Get into the directory adventure_game/game
 >cd "where game is stored on your machine/adventure_game/game"
 
-return
+
 2. Run
 >npm install
 
