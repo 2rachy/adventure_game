@@ -5,6 +5,8 @@
 .bar-lightdark, .bar-lightdark .item, .bar-lightdark .item a{background-color: #333; color: #ddd; border-color: #555;}
 body, h1, h2 {font-family: "Century Gothic", Arial, sans-serif;}
 p{ padding: .8em; font-size: 16px;}
+.center{display: table; margin: 0px auto; position: static;}
+.button-margin{margin-right: 10px;}
 
 /* Button */
 .game-onebutton{padding: .5em; display: table; margin: 0 auto;}

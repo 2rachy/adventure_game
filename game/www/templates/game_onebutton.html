@@ -2,8 +2,8 @@
     <ion-nav-buttons side="left">
         <button menu-toggle="left"class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
-    <ion-content class="has-header">
-        <p>The girl of your dreams has been stolen by an evil dragon. He places her in the middle of a castle. He plans to eat her in three days after his journey to Transylvania. You have until then to save her...</p>
-        <div class="button game-onebutton"><img src="img/button_images/start.png"></div>
+    <ion-content class="has-header" data-ng-init="init()">
+        <p>{{data.description}}</p>
+        <div class="button game-onebutton" ng-click="clickPicture(data.pictures[0].picture1[0].clickEvent)"><img src="{{data.pictures[0].picture1[0].imgurl}}"></div>
     </ion-content>
 </ion-view>

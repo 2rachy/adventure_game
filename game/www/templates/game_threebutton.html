@@ -2,12 +2,12 @@
     <ion-nav-buttons side="left">
         <button menu-toggle="left"class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
-    <ion-content class="has-header">
-        <p>You reach into your handy dandy utility belt and pull out a grapping hook. You throw it as hard as you can over the castle wall and begin to climb. You are standing on the top of the wall. What do you do now?</p>
+    <ion-content class="has-header" data-ng-init="init()">
+        <p>{{data.description}}</p>
         <div>
-            <img class="button game-threebutton" width="100" src="img/button_images/repel.png">
-            <img class="button game-threebutton" width="100"  src="img/button_images/jump.png">
-            <img class="button game-threebutton" width="100" src="img/button_images/repel.png">
+            <img class="button game-threebutton" ng-click="clickPicture(data.pictures[0].picture1[0].clickEvent)" width="100" src="{{data.pictures[0].picture1[0].imgurl}}">
+            <img class="button game-threebutton" ng-click="clickPicture(data.pictures[0].picture2[0].clickEvent)" width="100"  src="{{data.pictures[0].picture2[0].imgurl}}">
+            <img class="button game-threebutton" ng-click="clickPicture(data.pictures[0].picture3[0].clickEvent)" width="100" src="{{data.pictures[0].picture3[0].imgurl}}">
         </div>
     </ion-content>
 </ion-view>
