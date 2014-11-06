@@ -1,48 +1,78 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
-  // Form data for the login modal
-  $scope.loginData = {};
+.controller('AppCtrl', function($scope, $http, $location) {
 
-  // Create the login modal that we will use later
-  $ionicModal.fromTemplateUrl('templates/login.html', {
-    scope: $scope
-  }).then(function(modal) {
-    $scope.modal = modal;
-  });
+        // Exit page - Start
+        $scope.yes = function (){
+            //exit program
+            $location.path('app/game_onebutton');
+            $scope.questionId = 1;
+        }
 
-  // Triggered in the login modal to close it
-  $scope.closeLogin = function() {
-    $scope.modal.hide();
-  };
+        $scope.no = function (){
+           //go back to game
+        }
+        //Exit page - End
 
-  // Open the login modal
-  $scope.login = function() {
-    $scope.modal.show();
-  };
+    $scope.init = function(){
 
-  // Perform the login action when the user submits the login form
-  $scope.doLogin = function() {
-    console.log('Doing login', $scope.loginData);
+        $http.get('game_structure/game.json')
+            .success (function(data)
+        {
+            if($scope.questionId == null){
+                //Set questionId
+                $scope.questionId = 1;
+            }
+          for(var i=0; i<data.length; i++){
+             if(data[i].id == $scope.questionId){
+                     $scope.data = data[i];
+             }
+          }
 
-    // Simulate a login delay. Remove this and replace with your login
-    // code if using a login system
-    $timeout(function() {
-      $scope.closeLogin();
-    }, 1000);
-  };
-})
+        })
+            .error(function()
+            {
+                alert("error");
+            });
+    }
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})
+        //ClickPicture function
+        $scope.clickPicture = function (id) {
+            $http.get('game_structure/game.json')
+                .success (function(data)
+            {
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].id == id) {
+                        $scope.questionId = id;
+                         switch(data[i].template) {
+                             case "1":
+                                 $location.path('app/game_onebutton');
+                                 break;
+                             case "2":
+                                 $location.path('app/game_twobutton');
+                                 break;
+                             case "3":
+                                $location.path('app/game_threebutton');
+                                break;
+                             case "4":
+                                $location.path('app/game_fourbutton');
+                                break;
+                             case "5":
+                                $location.path('app/game_youlose');
+                                 break;
+                             case "6":
+                                 $location.path('app/game_youwin');
+                                break;
+                         }
+                        $scope.init();
+                         break;
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+
+                    }
+                }
+            }) .error(function()
+                {
+                    alert("error");
+                });
+        }
 });

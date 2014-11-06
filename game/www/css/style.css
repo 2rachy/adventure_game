@@ -1,1 +1,14 @@
 /* Empty. Add your own CSS if you like */
+.bar-tan{background-color: #D3CC82;}
+.bar-reallydark{background-color: #222; border-color: #555;}
+.bar-reallydark .title{color: #ddd;}
+.bar-lightdark, .bar-lightdark .item, .bar-lightdark .item a{background-color: #333; color: #ddd; border-color: #555;}
+body, h1, h2 {font-family: "Century Gothic", Arial, sans-serif;}
+p{ padding: .8em; font-size: 16px;}
+.center{display: table; margin: 0px auto; position: static;}
+.button-margin{margin-right: 10px;}
+
+/* Button */
+.game-onebutton{padding: .5em; display: table; margin: 0 auto;}
+.game-twobutton{padding: .5em; display: table; margin: 5px 10px; float: left;}
+.game-threebutton{padding: .5em; display: table; margin: 5px 9px; float: left;}

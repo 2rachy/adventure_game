@@ -1,0 +1,766 @@
+[
+	{
+		"id":"1",
+		"description":"The girl of your dreams has been stolen by an evil dragon. He places her in the middle of a castle. He plans to eat her in three days after his journey to Transylvania. You have until then to save her...",
+		"template":"1",
+		"pictures":
+		[
+			{
+				"picture1": 
+				[
+					{
+						"imgurl": "img/button_images/start.png",
+						"clickEvent": "2"
+					}
+				]
+			}
+		]
+	},
+	
+	{
+		"id":"2",
+		"description":"You charge the castle on your horse yelling triumphantly! Your cries cease abruptly as you discover a moat in front of you. What do you do?",
+		"template":"2",
+		"pictures":
+		[
+			{
+				"picture1":
+				[
+					{
+						"imgurl": "img/button_images/jump.png",
+						"clickEvent": "3"
+					}
+				],
+				"picture2":
+				[
+					{
+						"imgurl": "img/button_images/swim.png",
+						"clickEvent": "4"
+					}
+				]
+			}
+		]
+	},
+    {
+        "id":"3",
+        "description":"You take a triumphant jump and do a front flip and land your face and die! You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"4",
+        "description":"You dive into the moat and a crocodile comes out of nowhere and eats you. What do you do now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/sword.png",
+                                "clickEvent": "5"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/crawl.png",
+                                "clickEvent": "6"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"5",
+        "description":"You manage to pull out your sward while in the nasty little crock's stomach ... and kill him. What do you do now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/dive.png",
+                                "clickEvent": "7"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/climb.png",
+                                "clickEvent": "8"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"6",
+        "description":"You crawl out of the crock's stomach. He gets pissed and is about to eat you again but then your valiant steed jumps into the water and pounds him. What do you do now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/dive.png",
+                                "clickEvent": "7"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/climb.png",
+                                "clickEvent": "8"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"7",
+        "description":"You dive into the water and then remember that you can’t breath in the water and you drown. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"8",
+        "description":"You climb out of the moat and charge toward the castle completely ditching your noble steed. What do you do now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/knock.png",
+                                "clickEvent": "9"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/grappling.png",
+                                "clickEvent": "10"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"9",
+        "description":"You look at the gate and gulp. Alright here goes nothing ... You chicken out ... are you sure you want me to do this?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/yes.png",
+                                "clickEvent": "11"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/no.png",
+                                "clickEvent": "12"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"10",
+        "description":"You reach into your handy dandy utility belt and pull out a grappling hook. You throw it as hard as you can over the castle wall and begin to climb. You are standing on the top of the wall. What do you do now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/repel.png",
+                                "clickEvent": "13"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/jump.png",
+                                "clickEvent": "14"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"11",
+        "description":"Ok here goes nothing. *Knock Knock*. The dragon answers the door and invites you in cordially. You say 'uh no never mind. I'll just go home.' He is extremely displeased and to show it he eats you. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"12",
+        "description":"Whew! Ok good I'm glad. What do you do now? Knock or Grappling?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/knock.png",
+                                "clickEvent": "9"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/grappling.png",
+                                "clickEvent": "10"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"13",
+        "description":"You repel down the wall. You flex your muscles a little bit and admire your cunning. You glance to the left and see a shovel what do you do?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/run.png",
+                                "clickEvent": "15"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/dig.png",
+                                "clickEvent": "16"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"14",
+        "description":"You are really dumb. You jump off and die gruesomely. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"15",
+        "description":"You start running around mindlessly at top speed. Now you are really tired. What now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/run.png",
+                                "clickEvent": "17"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/rest.png",
+                                "clickEvent": "18"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"16",
+        "description":"You pick up the shovel and begin digging. From time to time you admire your muscles. You dig a huge hole and after one day you finish. You climb out of your hole and begin beating your chest and shouting a war cry. Your cries cease abruptly as you discover a moat in front of you. What do you do?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/jump.png",
+                                "clickEvent": "3"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/swim.png",
+                                "clickEvent": "4"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"17",
+        "description":"You decide to keep running and around but this time you look for clues to find the girl of your dreams. After running around a bit you find a panel with two buttons. A green one and a red one. What do you do?",
+        "template":"3",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/nothing.png",
+                                "clickEvent": "19"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/green.png",
+                                "clickEvent": "20"
+                            }
+                        ],
+                    "picture3":
+                        [
+                            {
+                                "imgurl": "img/button_images/red.png",
+                                "clickEvent": "21"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"18",
+        "description":"You lay down and begin to rest. The sudden change in your heart rate causes you to have a heart-attack. Fortunately you are still alive but you need medical care immediately. What do you do?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/911.png",
+                                "clickEvent": "22"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/shout.png",
+                                "clickEvent": "23"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"19",
+        "description":"Nothing happens. What do you do?",
+        "template":"3",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/nothing.png",
+                                "clickEvent": "19"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/green.png",
+                                "clickEvent": "20"
+                            }
+                        ],
+                    "picture3":
+                        [
+                            {
+                                "imgurl": "img/button_images/red.png",
+                                "clickEvent": "21"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"20",
+        "description":"You think to yourself well green is my favorite color, and courageously press the green button. And a large sound comes out of no where and from underneath you a trap door appears and you start falling. The trap door takes you straight to your very own cell in the dungeon. Your first reaction is to let out a yelp for your mother. She doesn't hear you, but the girl of your dreams does as she is in the cell right across from you. What now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/flex.png",
+                                "clickEvent": "24"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/rage.png",
+                                "clickEvent": "25"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"21",
+        "description":"You think to yourself well red is my least favorite color maybe it's a trick. You press the button and suddenly you hear a soft, pleasant voice saying 'Hello. This is an automated computer sequence. What would you like to do?",
+        "template":"3",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/rescue.png",
+                                "clickEvent": "26"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/win.png",
+                                "clickEvent": "27"
+                            }
+                        ],
+                    "picture3":
+                        [
+                            {
+                                "imgurl": "img/button_images/green2.png",
+                                "clickEvent": "28"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"22",
+        "description":"You reach into your pocket for your cell phone to call 911, but then you remember that they haven't been invented yet. You begin the process of trying invent cell phones. After two days you successfully invent a cell phone. Then you remember that 911 hasn't been invented yet either so you die. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"23",
+        "description":"You shout as loud as you can. You don't really know what to shout so you just yell 'HEY! IS ANYBODY THERE' You hear a loud popping sound. You see the girl of your dreams as she teleports into the room. She runs up to you and quickly assesses your condition. You say 'wait a second you can teleport?' She says 'shhhhhhhh.' She then proceeds to give you CPR. In between chest compressions you try to tell her your fine she says 'just trust me.' Suddenly the dragon bursts through the ceiling. He opens his mouth to blow fire at you. Quick what do you do?",
+        "template":"3",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/spell.png",
+                                "clickEvent": "29"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/dodge.png",
+                                "clickEvent": "30"
+                            }
+                        ],
+                    "picture3":
+                        [
+                            {
+                                "imgurl": "img/button_images/fight.png",
+                                "clickEvent": "31"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"24",
+        "description":"You flex your muscles for your girl, and she ignores it and says 'I just knew you'd come....I just thought you'd save me too...A little embarrassed you begin looking for a way out. After searching extensively you discover an open door conveniently placed. You read the sign over it which says 'If you want to escape enter here.' What do you do?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/escape.png",
+                                "clickEvent": "32"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/teleport.png",
+                                "clickEvent": "33"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"25",
+        "description":"You decide that now would be a good time to display a lot of rage. You begin spinning around at outrageous speeds and yelling like crazy. Then you smack your head on the bars and die. What in heck were you thinking? You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"26",
+        "description":"You say 'ummm I would like to rescue my girlfriend.' The computer responds, 'what is your access code?' You think for a second....'Transylvania!' You shout. 'Your access code is incorrect. This panel will now self-destruct.' You die. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"27",
+        "description":"Your mind frantically thinks of what a dragon would say to this computer. 'Wait a second dragons can't talk! Oh well all I have to do is just tell it to win the game.' You suddenly realize you just said that out loud. Oh no! The computer gets offended and  shoots you with virtual bullets. You die. You lose. Try again? ",
+        "template":"5"
+    },
+    {
+        "id":"28",
+        "description":"You think to yourself, 'aw man I hate computers (and I'm pretty sure they haven't been invented yet) lets see what the green button does.' You press the green button and a large sound comes out of no where and from underneath you a trap door appears and you start falling. The trap door takes you straight to your very own cell in the dungeon. Your first reaction is to let out a yelp for your mother. She doesn't hear you but the girl of your dreams does as she is in the cell right across from you. What now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/flex.png",
+                                "clickEvent": "24"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/rage.png",
+                                "clickEvent": "25"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"29",
+        "description":"You cast the only spell you can think of. Unfortunately this spell is Alohamora, which is very handy for unlocking doors but incredibly useless when trying to fight dragons. You try it anyways. The dragon looks at you confused and then eats you and your girl. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"30",
+        "description":"You dodge the flame by doing a cart wheel. You look over your shoulder and see that your girlfriend was not able to dodge as quickly. You decide that now would be a good time to go home so you teleport home. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"31",
+        "description":"You pull out your sword and charge at the dragon yelling ferociously. The dragon sees your movement and swings his arm down to hit you.",
+        "template":"4",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/dodge.png",
+                                "clickEvent": "34"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/swing.png",
+                                "clickEvent": "35"
+                            }
+                        ],
+                    "picture3":
+                        [
+                            {
+                                "imgurl": "img/button_images/run.png",
+                                "clickEvent": "36"
+                            }
+                        ],
+                    "picture4":
+                        [
+                            {
+                                "imgurl": "img/button_images/shoot.png",
+                                "clickEvent": "37"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"32",
+        "description":"You escape from the cell and run over to the girl of your dreams. A bit baffled you say, 'Hey how's it going?' She doesn't have time to answer because suddenly the dragon bursts through the ceiling. He opens his mouth to blow fire at you. Quick what do you do?",
+        "template":"3",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/spell.png",
+                                "clickEvent": "29"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/dodge.png",
+                                "clickEvent": "30"
+                            }
+                        ],
+                    "picture3":
+                        [
+                            {
+                                "imgurl": "img/button_images/fight.png",
+                                "clickEvent": "31"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"33",
+        "description":"You think to yourself, 'man I don't even want a girl anyways. Why did I risk my life for this? I'm going home.' You teleport home. YOU WIN!!!!! But after days of thinking about the girl of your dreams you think what in the world was I thinking?????? I'm so dumb. YOU LOSE. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"34",
+        "description":"You dodge the arm and the dragon hits the ground with intense strength. The power from the crash thunders across the castle. You hear a giant **crack**. The dragon's massive hit has caused an earthquake!! The castle falls on top of you all and you all die! You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"35",
+        "description":"You swing your sword at the dragons bulky arm. He sees it coming but he doesn't have any fear because he knows his scales would keep him safe. But little does he know that you wield a cutco sword and the blade easily slices through his scales. He screams out in pain. What now?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/talk.png",
+                                "clickEvent": "38"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/kill.png",
+                                "clickEvent": "39"
+                            }
+                        ]
+                }
+            ]
+    },
+    {
+        "id":"36",
+        "description":"You grab your girl and just run for your life. The dragon barely misses you and chases you down the corridor. You dodge the flames that he blows at you. After running like the dickens for a few minutes you look behind you and see the dragon is gone. 'Ok' you say to your girl 'lets go home.' You take her by the hands and then the dragon busts through the ceiling! What now!?!?",
+        "template":"2",
+        "pictures":
+            [
+                {
+                    "picture1":
+                        [
+                            {
+                                "imgurl": "img/button_images/words.png",
+                                "clickEvent": "40"
+                            }
+                        ],
+                    "picture2":
+                        [
+                            {
+                                "imgurl": "img/button_images/surrender.png",
+                                "clickEvent": "41"
+                            }
+                        ]
+                }
+            ],
+        "button_doom": "true"
+    },
+
+    {
+        "id":"37",
+        "description":"You reach into your handy utility belt and pull out a gun. You shoot the dragon. The bullet bounces off his scales easily. You look at your girl hopelessly. She gives you an incredibly disgusted look and rips the gun out of your hand. She unloads the clip at the dragon. They all bounce off easily. The dragon laughs maniacally. Then eats you both. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"38",
+        "description":"What? I'm not gonna talk to a dragon. They don't even know how to talk! Alright I guess I have to do what you say. 'H...h...hello?' The dragon responds by eating you. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"39",
+        "description":"While the dragon is preoccupied with his bleeding arm you charge and dive your blade deep into the dragon's heart. He lets out a yelp for his mother. ('Hmmmm' you think to yourself 'I guess they can talk.') The dragon's eyes flutter and the life in his body fades out. He keels over.....right on top of you and you die. The girl of your dreams sighs and says, 'finally'. Then teleports away. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"40",
+        "description":"You look at your girl and try to form your last words. All that comes out is 'Try the secret button of doom!' Then the dragon eats you both. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"41",
+        "description":"'WE SURRENDER!!!' you shout. 'Excellent' says the dragon. 'Wait you can talk?' 'Obviously.' You suddenly die out of amazement. You lose. Try again?",
+        "template":"5"
+    },
+    {
+    "id":"42",
+    "description":"An unknown force blazes through the air and hits the dragon square in the chest. A blue glow begins to grow starting at the place that the force hit. The dragon slowly begins transforming. Suddenly he becomes Jason Bourne holding a gun. Very startled the dragon looks at his new self and points the gun at you out of instinct. What do you do now?",
+    "template":"4",
+    "pictures":
+        [
+            {
+                "picture1":
+                [
+                    {
+                        "imgurl": "img/button_images/hostage.png",
+                        "clickEvent": "43"
+                    }
+                ],
+                "picture2":
+                    [
+                        {
+                            "imgurl": "img/button_images/intimidate.png",
+                            "clickEvent": "44"
+                        }
+                    ],
+                "picture3":
+                    [
+                        {
+                            "imgurl": "img/button_images/fire.png",
+                            "clickEvent": "45"
+                        }
+                    ],
+                "picture4":
+                    [
+                        {
+                            "imgurl": "img/button_images/girl.png",
+                            "clickEvent": "46"
+                        }
+                    ]
+            }
+        ]
+    },
+    {
+        "id":"43",
+        "description":"You grab your sword and quickly put it up to your girl's throat. 'I'll kill her unless you let us go!!' Bourne just blinks a couple times...then bursts out laughing. Your girl glares at you and says 'thats it we're through!!' Then she teleports away. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"44",
+        "description":"You run around in circles flailing your arms about as fast as you can. You start roaring like a lion to try and intimidate him. After doing this for a couple of minutes you get tired and awkwardly stop. Jason Bourne just raises one eyebrow. The power from his intimidation knocks you off your feet and destroys you. You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"45",
+        "description":"You reach into your handy dandy utility belt and pull out some flint and steel. You gather some kindling scattered around the castle. Pretty soon you have a pretty good fire going. In the time that it took you to build a fire, Jason Bourne was busy seducing your girl. You say 'ok honey time to go home now.' She just looks at you blankly and says 'I am home.' NOOOOO!!!! You lose. Try again?",
+        "template":"5"
+    },
+    {
+        "id":"46",
+        "description":"You stand in front of your girl and shield her and say, 'you can do whatever you want to me. Just don't kill her.' He looks at you with sympathy and says, 'ok deal. Now that I'm not a dragon I don't really want to eat you guys anyways.' YOU WIN!!!!!!!",
+        "template":"6"
+    }
+]
