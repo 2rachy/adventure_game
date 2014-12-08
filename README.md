@@ -47,7 +47,7 @@ Start Game (using Cordova simulator)
 >ionic emulate ios (or android*)
 
 <code>
-*If on windows and ionic platform add android (etc) doesn't work. Try replacing the word ionic with cordova and repeat steps 3-4.
+*If on windows and 'ionic platform add android' (etc) doesn't work. Try replacing the word ionic with cordova and repeat steps 3-5.
 </code>
 
 If you have any problems with this I suggest looking at the documentation for ionic at: http://ionicframework.com/getting-started/
