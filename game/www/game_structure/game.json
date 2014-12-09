@@ -43,7 +43,7 @@
 	},
     {
         "id":"3",
-        "description":"You take a triumphant jump and do a front flip and land your face and die! You lose. Try again?",
+                "description":"You take a triumphant jump and do a front flip and land your face and die! You lose.",
         "template":"5"
     },
     {
@@ -120,7 +120,7 @@
     },
     {
         "id":"7",
-        "description":"You dive into the water and then remember that you can’t breath in the water and you drown. You lose. Try again?",
+        "description":"You dive into the water and then remember that you can’t breath in the water and you drown. You lose.",
         "template":"5"
     },
     {
@@ -197,7 +197,7 @@
     },
     {
         "id":"11",
-        "description":"Ok here goes nothing. *Knock Knock*. The dragon answers the door and invites you in cordially. You say 'uh no never mind. I'll just go home.' He is extremely displeased and to show it he eats you. You lose. Try again?",
+        "description":"Ok here goes nothing. *Knock Knock*. The dragon answers the door and invites you in cordially. You say 'uh no never mind. I'll just go home.' He is extremely displeased and to show it he eats you. You lose.",
         "template":"5"
     },
     {
@@ -250,7 +250,7 @@
     },
     {
         "id":"14",
-        "description":"You are really dumb. You jump off and die gruesomely. You lose. Try again?",
+        "description":"You are really dumb. You jump off and die gruesomely. You lose.",
         "template":"5"
     },
     {
@@ -444,7 +444,7 @@
     },
     {
         "id":"22",
-        "description":"You reach into your pocket for your cell phone to call 911, but then you remember that they haven't been invented yet. You begin the process of trying invent cell phones. After two days you successfully invent a cell phone. Then you remember that 911 hasn't been invented yet either so you die. You lose. Try again?",
+        "description":"You reach into your pocket for your cell phone to call 911, but then you remember that they haven't been invented yet. You begin the process of trying invent cell phones. After two days you successfully invent a cell phone. Then you remember that 911 hasn't been invented yet either so you die. You lose.",
         "template":"5"
     },
     {
@@ -504,17 +504,17 @@
     },
     {
         "id":"25",
-        "description":"You decide that now would be a good time to display a lot of rage. You begin spinning around at outrageous speeds and yelling like crazy. Then you smack your head on the bars and die. What in heck were you thinking? You lose. Try again?",
+        "description":"You decide that now would be a good time to display a lot of rage. You begin spinning around at outrageous speeds and yelling like crazy. Then you smack your head on the bars and die. What in heck were you thinking? You lose.",
         "template":"5"
     },
     {
         "id":"26",
-        "description":"You say 'ummm I would like to rescue my girlfriend.' The computer responds, 'what is your access code?' You think for a second....'Transylvania!' You shout. 'Your access code is incorrect. This panel will now self-destruct.' You die. You lose. Try again?",
+        "description":"You say 'ummm I would like to rescue my girlfriend.' The computer responds, 'what is your access code?' You think for a second....'Transylvania!' You shout. 'Your access code is incorrect. This panel will now self-destruct.' You die. You lose.",
         "template":"5"
     },
     {
         "id":"27",
-        "description":"Your mind frantically thinks of what a dragon would say to this computer. 'Wait a second dragons can't talk! Oh well all I have to do is just tell it to win the game.' You suddenly realize you just said that out loud. Oh no! The computer gets offended and  shoots you with virtual bullets. You die. You lose. Try again? ",
+        "description":"Your mind frantically thinks of what a dragon would say to this computer. 'Wait a second dragons can't talk! Oh well all I have to do is just tell it to win the game.' You suddenly realize you just said that out loud. Oh no! The computer gets offended and  shoots you with virtual bullets. You die. You lose. ",
         "template":"5"
     },
     {
@@ -543,12 +543,12 @@
     },
     {
         "id":"29",
-        "description":"You cast the only spell you can think of. Unfortunately this spell is Alohamora, which is very handy for unlocking doors but incredibly useless when trying to fight dragons. You try it anyways. The dragon looks at you confused and then eats you and your girl. You lose. Try again?",
+        "description":"You cast the only spell you can think of. Unfortunately this spell is Alohamora, which is very handy for unlocking doors but incredibly useless when trying to fight dragons. You try it anyways. The dragon looks at you confused and then eats you and your girl. You lose.",
         "template":"5"
     },
     {
         "id":"30",
-        "description":"You dodge the flame by doing a cart wheel. You look over your shoulder and see that your girlfriend was not able to dodge as quickly. You decide that now would be a good time to go home so you teleport home. You lose. Try again?",
+        "description":"You dodge the flame by doing a cart wheel. You look over your shoulder and see that your girlfriend was not able to dodge as quickly. You decide that now would be a good time to go home so you teleport home. You lose.",
         "template":"5"
     },
     {
@@ -622,12 +622,12 @@
     },
     {
         "id":"33",
-        "description":"You think to yourself, 'man I don't even want a girl anyways. Why did I risk my life for this? I'm going home.' You teleport home. YOU WIN!!!!! But after days of thinking about the girl of your dreams you think what in the world was I thinking?????? I'm so dumb. YOU LOSE. You lose. Try again?",
+        "description":"You think to yourself, 'man I don't even want a girl anyways. Why did I risk my life for this? I'm going home.' You teleport home. YOU WIN!!!!! But after days of thinking about the girl of your dreams you think what in the world was I thinking?????? I'm so dumb. YOU LOSE. You lose.",
         "template":"5"
     },
     {
         "id":"34",
-        "description":"You dodge the arm and the dragon hits the ground with intense strength. The power from the crash thunders across the castle. You hear a giant **crack**. The dragon's massive hit has caused an earthquake!! The castle falls on top of you all and you all die! You lose. Try again?",
+        "description":"You dodge the arm and the dragon hits the ground with intense strength. The power from the crash thunders across the castle. You hear a giant **crack**. The dragon's massive hit has caused an earthquake!! The castle falls on top of you all and you all die! You lose.",
         "template":"5"
     },
     {
@@ -676,33 +676,32 @@
                             }
                         ]
                 }
-            ],
-        "button_doom": "true"
+            ]
     },
 
     {
         "id":"37",
-        "description":"You reach into your handy utility belt and pull out a gun. You shoot the dragon. The bullet bounces off his scales easily. You look at your girl hopelessly. She gives you an incredibly disgusted look and rips the gun out of your hand. She unloads the clip at the dragon. They all bounce off easily. The dragon laughs maniacally. Then eats you both. You lose. Try again?",
+        "description":"You reach into your handy utility belt and pull out a gun. You shoot the dragon. The bullet bounces off his scales easily. You look at your girl hopelessly. She gives you an incredibly disgusted look and rips the gun out of your hand. She unloads the clip at the dragon. They all bounce off easily. The dragon laughs maniacally. Then eats you both. You lose.",
         "template":"5"
     },
     {
         "id":"38",
-        "description":"What? I'm not gonna talk to a dragon. They don't even know how to talk! Alright I guess I have to do what you say. 'H...h...hello?' The dragon responds by eating you. You lose. Try again?",
+        "description":"What? I'm not gonna talk to a dragon. They don't even know how to talk! Alright I guess I have to do what you say. 'H...h...hello?' The dragon responds by eating you. You lose.",
         "template":"5"
     },
     {
         "id":"39",
-        "description":"While the dragon is preoccupied with his bleeding arm you charge and dive your blade deep into the dragon's heart. He lets out a yelp for his mother. ('Hmmmm' you think to yourself 'I guess they can talk.') The dragon's eyes flutter and the life in his body fades out. He keels over.....right on top of you and you die. The girl of your dreams sighs and says, 'finally'. Then teleports away. You lose. Try again?",
+        "description":"While the dragon is preoccupied with his bleeding arm you charge and dive your blade deep into the dragon's heart. He lets out a yelp for his mother. ('Hmmmm' you think to yourself 'I guess they can talk.') The dragon's eyes flutter and the life in his body fades out. He keels over.....right on top of you and you die. The girl of your dreams sighs and says, 'finally'. Then teleports away. You lose.",
         "template":"5"
     },
     {
         "id":"40",
-        "description":"You look at your girl and try to form your last words. All that comes out is 'Try the secret button of doom!' Then the dragon eats you both. You lose. Try again?",
+        "description":"You look at your girl and try to form your last words. All that comes out is 'Try the secret button of doom!' Then the dragon eats you both. You lose.",
         "template":"5"
     },
     {
         "id":"41",
-        "description":"'WE SURRENDER!!!' you shout. 'Excellent' says the dragon. 'Wait you can talk?' 'Obviously.' You suddenly die out of amazement. You lose. Try again?",
+        "description":"'WE SURRENDER!!!' you shout. 'Excellent' says the dragon. 'Wait you can talk?' 'Obviously.' You suddenly die out of amazement. You lose.",
         "template":"5"
     },
     {
@@ -745,17 +744,17 @@
     },
     {
         "id":"43",
-        "description":"You grab your sword and quickly put it up to your girl's throat. 'I'll kill her unless you let us go!!' Bourne just blinks a couple times...then bursts out laughing. Your girl glares at you and says 'thats it we're through!!' Then she teleports away. You lose. Try again?",
+        "description":"You grab your sword and quickly put it up to your girl's throat. 'I'll kill her unless you let us go!!' Bourne just blinks a couple times...then bursts out laughing. Your girl glares at you and says 'thats it we're through!!' Then she teleports away. You lose.",
         "template":"5"
     },
     {
         "id":"44",
-        "description":"You run around in circles flailing your arms about as fast as you can. You start roaring like a lion to try and intimidate him. After doing this for a couple of minutes you get tired and awkwardly stop. Jason Bourne just raises one eyebrow. The power from his intimidation knocks you off your feet and destroys you. You lose. Try again?",
+        "description":"You run around in circles flailing your arms about as fast as you can. You start roaring like a lion to try and intimidate him. After doing this for a couple of minutes you get tired and awkwardly stop. Jason Bourne just raises one eyebrow. The power from his intimidation knocks you off your feet and destroys you. You lose.",
         "template":"5"
     },
     {
         "id":"45",
-        "description":"You reach into your handy dandy utility belt and pull out some flint and steel. You gather some kindling scattered around the castle. Pretty soon you have a pretty good fire going. In the time that it took you to build a fire, Jason Bourne was busy seducing your girl. You say 'ok honey time to go home now.' She just looks at you blankly and says 'I am home.' NOOOOO!!!! You lose. Try again?",
+        "description":"You reach into your handy dandy utility belt and pull out some flint and steel. You gather some kindling scattered around the castle. Pretty soon you have a pretty good fire going. In the time that it took you to build a fire, Jason Bourne was busy seducing your girl. You say 'ok honey time to go home now.' She just looks at you blankly and says 'I am home.' NOOOOO!!!! You lose.",
         "template":"5"
     },
     {
