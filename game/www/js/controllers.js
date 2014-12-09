@@ -4,13 +4,9 @@ angular.module('starter.controllers', [])
 
         // Exit page - Start
         $scope.yes = function (){
-            //exit program
+            //Play again?
             $location.path('app/game_onebutton');
             $scope.questionId = 1;
-        }
-
-        $scope.no = function (){
-           //go back to game
         }
         //Exit page - End
 
@@ -74,5 +70,12 @@ angular.module('starter.controllers', [])
                 {
                     alert("error");
                 });
+        }
+
+    //Secret Button of Doom
+        $scope.doom = function (){
+          if($scope.questionId == 36) {
+            $scope.clickPicture(42);
+          }
         }
 });
